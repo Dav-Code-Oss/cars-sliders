@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container{
+    margin-top: calc(7%);
+    transform: translateX(30%);
+}
+
+div.slide{
+    font-weight: bold;
+    font-size: larger;
+    align-items: center;
+}
+
+p{
+    max-width: calc(40%);
+}
+
+div#image-container{
+    align-items: center;
+    display: flex;
+}
+
+img{
+    max-width: calc(40%);
+}
+
+span{
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: calc(350%);
+}
+
+.nextSlide{
+    position: fixed;
+    float: right;
+    left: 37.8%;
+    padding-bottom: 1%;
+}
+
+.prevSlide{
+    position: fixed;
+    float: left;
+    right: 97.8%;
+    padding-bottom: 1%;
+}
